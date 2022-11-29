@@ -18,6 +18,12 @@ body {
     line-height: 70px;
 }
 
+.main-container {
+    width: 1200px;
+    margin: 10px auto;
+    background-color: #FFF;
+}
+
 /* header */
 
 header {
@@ -67,4 +73,47 @@ header {
     border: 2px solid #CED3D7;
     border-radius: 10px;
     text-align: center;
+}
+
+/* Sezione main */
+
+.main-container summary {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.main-container details {
+    margin-left: 60px;
+}
+
+.green-circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid #5EBDA5 ;
+    color: #5EBDA5;
+    background-color: #FFF;
+    line-height: 35px;
+}
+
+.check {
+    font-size: 10px;
+    font-weight: bold;
+    padding-left: 4px;
+    vertical-align: middle;
+}
+
+.text {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.editorial.icon {
+    display: inline-block;
+    width: 60px;
+    color: #FFF;
+    background-color: #44ABF0;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 15px;
 }
