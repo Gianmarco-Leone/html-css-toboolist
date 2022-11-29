@@ -1,0 +1,31 @@
+/* Generics */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F6F8F9;
+}
+
+/* header */
+
+header {
+    line-height: 100px;
+    background-color: #FFF;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.title {
+    display: inline-block;
+    font-size: 50px;
+    vertical-align: middle;
+}
