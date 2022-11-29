@@ -86,6 +86,10 @@ header {
     margin-left: 60px;
 }
 
+.main-container details {
+    margin-bottom: 30px;
+}
+
 .green-circle {
     width: 35px;
     height: 35px;
@@ -96,7 +100,24 @@ header {
     line-height: 35px;
 }
 
-.check {
+.red-circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid #F00 ;
+    color: #F00;
+    background-color: #FFF;
+    line-height: 35px;
+}
+
+.icon {
+    font-size: 10px;
+    font-weight: bold;
+    padding-left: 4px;
+    vertical-align: middle;
+}
+
+.cross {
     font-size: 10px;
     font-weight: bold;
     padding-left: 4px;
@@ -108,12 +129,35 @@ header {
     margin-left: 5px;
 }
 
-.editorial.icon {
+.icon {
     display: inline-block;
-    width: 60px;
     color: #FFF;
-    background-color: #44ABF0;
-    font-size: 14px;
+    font-size: 12px;
     padding: 5px;
     border-radius: 15px;
+    text-align: center;
 }
+
+.editorial.icon {
+    width: 60px;
+    background-color: #44ABF0;
+}
+
+.goals.icon {
+    width: 70px;
+    background-color: #A54BFF;
+}
+
+.recruiting.icon {
+    width: 75px;
+    background-color: #33CC99;
+}
+
+.mobile.icon {
+    width: 60px;
+    background-color: #FF9C2A;
+}
+
+
+
+
