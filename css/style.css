@@ -10,11 +10,20 @@ body {
     background-color: #F6F8F9;
 }
 
+.container {
+    width: 1200px;
+    height: 70px;
+    margin: 0 auto;
+    background-color: #FFF;
+    line-height: 70px;
+}
+
 /* header */
 
 header {
     line-height: 100px;
     background-color: #FFF;
+    margin-bottom: 30px;
 }
 
 .logo {
@@ -28,4 +37,34 @@ header {
     display: inline-block;
     font-size: 50px;
     vertical-align: middle;
+}
+
+/* nav */
+
+.container nav {
+    margin-left: 60px;
+    vertical-align: middle;
+}
+
+#add-task {
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #44ABF0;
+    color: #FFF;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#add-section {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #FFF;
+    color: #CED3D7;
+    border: 2px solid #CED3D7;
+    border-radius: 10px;
+    text-align: center;
 }
