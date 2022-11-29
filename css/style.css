@@ -8,6 +8,7 @@
 
 body {
     background-color: #F6F8F9;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -20,11 +21,12 @@ body {
 
 .main-container {
     width: 1200px;
-    margin: 10px auto;
+    margin: 5px auto;
     background-color: #FFF;
+    padding: 30px 0;
 }
 
-/* header */
+/* Header */
 
 header {
     line-height: 100px;
@@ -45,7 +47,7 @@ header {
     vertical-align: middle;
 }
 
-/* nav */
+/* Nav */
 
 .container nav {
     margin-left: 60px;
@@ -75,7 +77,7 @@ header {
     text-align: center;
 }
 
-/* Sezione main */
+/* Main */
 
 .main-container summary {
     font-size: 26px;
@@ -84,10 +86,7 @@ header {
 
 .main-container details {
     margin-left: 60px;
-}
-
-.main-container details {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .green-circle {
@@ -108,20 +107,6 @@ header {
     color: #F00;
     background-color: #FFF;
     line-height: 35px;
-}
-
-.icon {
-    font-size: 10px;
-    font-weight: bold;
-    padding-left: 4px;
-    vertical-align: middle;
-}
-
-.cross {
-    font-size: 10px;
-    font-weight: bold;
-    padding-left: 4px;
-    vertical-align: middle;
 }
 
 .text {
@@ -158,6 +143,19 @@ header {
     background-color: #FF9C2A;
 }
 
+.website.icon {
+    width: 65px;
+    background-color: #D863A1;
+}
+
+.sales.icon {
+    width: 60px;
+    background-color: #B0C926;
+}
+
+.main-container span {
+    margin: 10px 0 10px 0;
+}
 
 
 
