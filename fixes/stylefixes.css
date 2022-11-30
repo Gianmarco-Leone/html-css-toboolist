@@ -1,0 +1,161 @@
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+/* Generics */
+
+body {
+    background-color: #F6F8F9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Utils */
+
+.container {
+    width: 1200px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid currentColor;
+    color: #BBB;
+}
+
+.btn.button-primary {
+    background-color: #47ADF1;
+    color: #FFF;
+    border: 2px solid #47ADF1;
+}
+
+.btn.button-outline {
+    background-color: transparent;
+    color: #BBB;
+}
+
+.label {
+    display: inline-block;
+    font-size: 12px;
+    color: #FFF;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+/* Header */
+
+.top-page {
+    background-color: #FFF;
+    height: 100px;
+    line-height: 100px;
+    margin-bottom: 50px;
+}
+
+.header-title {
+    display: inline;
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+#logo {
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+/* Box */
+
+.box {
+    width: 100%;
+    background-color: #FFF;
+    border-radius: 15px;
+}
+
+.top-box {
+    padding: 15px 50px;
+    border-bottom: 5px solid #F6F8F9;
+}
+
+.central-box {
+    padding: 50px;
+}
+
+.central-box details {
+    margin-bottom: 30px;
+}
+
+details .list-title {
+    display: inline;
+
+}
+
+.list-item::before {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid currentColor;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.list-item.check::before {
+    content: '\2714';
+    color: #63C0A9;
+}
+
+.list-item.uncheck::before {
+    content: '\2718';
+    color: #E94F48;
+}
+
+.list-item {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+/* Background color labels */
+
+.bg-editorials {
+    background-color: #45ABEA;
+}
+
+.bg-goals {
+    background-color: #9C72E4;
+}
+
+.bg-recruiting {
+    background-color: #64C0A9;
+}
+
+.bg-mobile {
+    background-color: #F29E33;
+}
+
+.bg-website {
+    background-color: #D863A1;
+}
+
+.bg-sales {
+    background-color: #B0C926;
+} 
+
